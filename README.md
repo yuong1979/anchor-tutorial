@@ -119,15 +119,24 @@ Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) to learn how.
 </div>
 
 
-To run anchor test
+##To run anchor test
+
 run cmd : anchor test
+
 If there is an error
+
 Deactivate the test validator
+
 Follow the instructions in https://stackoverflow.com/questions/71899100/project-serum-anchor-anchor-test-command-is-not-working
-Following - 
+
 cd anchor/ts
+
 yarn install
+
 yarn build
+
 cd ../examples/tutorial
+
 rm -rf node_modules
+
 yarn install
